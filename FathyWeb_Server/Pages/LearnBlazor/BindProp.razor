@@ -1,0 +1,29 @@
+﻿@page "/learnblazor/bindprop"
+
+<h3>Product</h3>
+Name: @Product.Name
+<br />
+Active: @Product.IsActive
+<br />
+Price: @Product.Price
+<br />
+This Product is : @(Product.IsActive ? "Active" : "InActive")
+<br />
+<br />
+Active:
+<input type="checkbox" class="form-check-input" @bind="Product.IsActive" @bind:event="onchange" />
+<br />
+Price:
+<input type="number" @bind-value="@Product.Price" @bind-value:event="oninput" />
+<br />
+
+
+@code {
+    Fathy_Models.LearnBlazorModels.Demo_Product Product = new()
+    {
+        Id = 1,
+        Name = "Rose Candle",
+        IsActive = true,
+        Price = 10.99
+    };
+}
