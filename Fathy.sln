@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FathyWeb_Server", "FathyWeb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FathyWeb_Client", "FathyWeb_Client\FathyWeb_Client.csproj", "{469FD5AA-4E67-4F51-B31B-5065A6B40ACE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fathy_Models", "Fathy_Models\Fathy_Models.csproj", "{21A3757A-F4EF-47D5-99ED-48611B049D3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{469FD5AA-4E67-4F51-B31B-5065A6B40ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{469FD5AA-4E67-4F51-B31B-5065A6B40ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{469FD5AA-4E67-4F51-B31B-5065A6B40ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A3757A-F4EF-47D5-99ED-48611B049D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A3757A-F4EF-47D5-99ED-48611B049D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A3757A-F4EF-47D5-99ED-48611B049D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A3757A-F4EF-47D5-99ED-48611B049D3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
